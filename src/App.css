@@ -1,0 +1,671 @@
+
+/* corporate section */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.corprate{
+    /* margin-top: 40px; */
+    width: 100%;
+    height: 400px;
+    background-color: rgb(26, 24, 24);
+    text-align: center;
+}
+.corprate h1{
+    color: white;
+    padding-top: 100px;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: circle;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+@keyframes circle{
+
+    100%{
+        color: red;
+    }
+    80%{
+        color: rgb(115, 196, 229);
+    }
+    60%{
+        color: rgb(71, 194, 71);
+    }
+    40%{
+        color: rgb(209, 209, 51);
+    }
+    20%{
+        color: rgb(234, 155, 141);
+    }
+    0%{
+        color: violet;
+    }
+}
+.corprate h1 span{
+    color: blue;
+}
+.corprate h4{
+    padding-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* box section */
+.box{
+    /* position: absolute; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;   
+}
+.box1{
+    position: absolute;
+    margin-top: -35px;
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(rgb(236, 230, 230),lightgrey);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 15px rgb(203, 214, 203);
+    margin-left: 70px;
+    text-align: center; 
+    
+}
+.box h4{
+    padding-top: 80px;
+    font-size: 50px;
+    font-family: cursive;
+}
+.box2{
+    position: absolute;
+    margin-top: -35px;
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(rgb(236, 230, 230),lightgrey);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 15px rgb(203, 214, 203);
+    margin-left: 27%;
+    text-align: center;
+}
+.box3{
+    position: absolute;
+    margin-top: -35px;
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(rgb(236, 230, 230),lightgrey);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 15px rgb(203, 214, 203);
+    margin-left: 49%;
+    text-align: center;
+}
+.box4{
+    position: absolute;
+    margin-top: -35px;
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(rgb(236, 230, 230),lightgrey);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 15px rgb(203, 214, 203);
+    margin-left: 72%;
+    text-align: center;
+}
+.blog{
+    height: 450px;
+    background-color: rgb(144, 138, 138);
+}
+.blog p{
+    padding-top: 230px;
+    width: 75%;
+    padding-left: 150px;
+}
+p hr{
+    border-radius: 5px;
+    border-color: navy;
+}
+/* After blue line */
+
+.blog h3{
+    padding: 10px;
+    text-align: center;
+}
+.blog h1{
+    text-align: center;
+    font-size: 40px;
+}
+.blog h4{
+    width: 60%;
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 18%;
+    
+}
+
+/* apple section */
+.appletop{
+    background-color: whitesmoke;
+}
+
+.part1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.part1 .left{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.left .left1{
+    color: aliceblue;
+    background-color: blue;
+    font-size: 30px;    
+    padding: 10px;
+    height: 35px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+.left .left2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.part1 .right{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.right .right1{
+    color: aliceblue;
+    background-color: blue;
+    font-size: 30px;    
+    padding: 10px;
+    height: 35px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.right .right2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+/* apple buttom */
+
+.part2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.left3 img{
+    padding: 20px;
+    border-radius: 50px;
+}
+.left4{
+    margin-top: 100px;
+    margin-left: 50px;
+    background-color: rgb(119, 235, 235);
+    height: 150px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.left4 h3{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    
+}
+
+/* apple buttom */
+
+.applebottom{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: rgb(23, 21, 21);
+    color: whitesmoke;
+}
+.leftbtm{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.leftbtm h4{
+    padding: 20px;
+    font-size: 20px;
+    color:rgb(21, 194, 30);
+}
+.leftbtm h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.leftbtm h5{
+    width: 500px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.leftbtm button{
+    font-size: 17px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.rightbtm{
+   padding: 30px;
+}
+
+.rightbtm h3{
+    margin-top: 20px;
+    color:rgb(21, 194, 30);
+}
+
+.rightbtm h5{
+    /* color: yellow; */
+    margin-top: 30px;
+    text-align:start;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* girl box section */
+
+.girl-box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+}
+.girl-box .girl1{
+    margin-top: 30px;
+}
+.girl-box .girl1 img{
+    box-shadow: 4px 4px 14px 1px rgb(95, 214, 241);
+}
+.girl-box .girl1 h3{
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.girl-box .girl2{
+    text-align: center;
+    margin-top: 60px;
+}
+.girl-box .girl2 h2{
+    font-size: 50px;
+    font-family: cursive;
+    text-align: left;
+}
+.girl-box .girl2 h3{
+    font-size: 20px;
+    color: red;
+    text-align: left;
+}
+.girl-box .girl2 h5{
+    font-size: 18px;
+    color: aqua;
+    text-align: left;
+    padding-top: 10px;
+    font-weight: 800;
+}
+/* team leftt middle right */
+
+
+.team{
+    background-color: rgb(58, 58, 238);
+    padding: 50px;
+}
+.team1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin-left: 100px;
+    height: 110px;
+    padding: 30px;
+    background-color: rgb(228, 228, 223);
+    border-radius: 20px;
+}
+.team1 .leftteam{
+    /* padding: 10px; */
+    margin-bottom: 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.team1 .middleteam h1{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 40px;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team1 .middleteam h4{
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 10px;
+    /* padding-bottom: 40px; */
+    margin-bottom: 20px;
+}
+.rightteam button{
+    background-color: blue;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    /* padding: 10px; */
+    border-radius: 30px;
+    color: white;
+    margin-top: 40px;
+    
+}
+
+.team2{
+    font-family: monospace;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team2 h1{
+    font-size: 40px;
+    color: white;
+}
+.team2 h4{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: monospace;
+    color: white;
+}
+
+/* reference */
+
+.referance{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin-left: 100px;
+    height: 70vh;
+    padding: 30px;
+    margin-top: -60px;
+    background-color:white;
+    /* border-radius: 20px; */
+    text-align: center;
+
+}
+.referance span{
+    color: rgb(44, 44, 228);
+}
+.referance img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.referance h2{
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif   
+}
+.referance h4{
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.referance h5{
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* imagecontent */
+
+.imagecontent{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* background-color: yellow; */
+    margin-top: 31%;
+    padding: 20px;
+}
+.imagecontent .imgleft{
+    margin-top: -10px;
+    margin-left: 220px;
+    padding: 20px;
+
+}
+
+.contentright{
+    margin-top: 100px;
+    margin-right: 130px;
+}
+.contentright h1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+.contentright h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.contentright .percentage1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.contentright .percentage2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.bluebox{
+    position: absolute;
+    color: white;
+    background-color: rgb(50, 50, 236);
+    width: 300px;
+    /* height: 300px; */
+    text-align: center;
+    /* padding: 30px; */
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: -150px;
+    font-size: 20px;
+    border-radius: 5px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    
+}
+
+/* payments section */
+
+
+.payments{
+    text-align: center;
+    margin-top: 80px;
+    background-color:rgb(80, 62, 47);
+    
+}
+.payments h2{
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: 700;
+    /* width: 60%; */
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+.payments h5{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: white;
+}
+.cmplogo{
+    margin-top: 40px;
+
+}
+.cmplogo img{
+    padding: 20px;
+    margin: 20px;
+    
+}
+.cmplogo .row1{
+    margin-top: -90px;
+}
+
+/* price section */
+.price {
+    text-align:center;
+    margin-bottom: 40px;
+
+}
+.price h4{
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+.price h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pricecontent{
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.price1 img{
+    margin-top: 20px;
+    background-color: rgb(184, 175, 175);
+    border-radius: 50%;
+}
+
+.price1{
+    box-shadow: 5px 5px 10px 15px rgb(203, 214, 203);
+    width: 400px;
+    border-radius: 10px;
+}
+.price1 h1{
+    padding-top: 20px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price1 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:20px;
+}
+.price1 hr{
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px 5px rgb(203, 214, 203);   
+    
+}
+.price1 h3{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+.price1 button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+/* footer section */
+
+.footer{
+    background-color: rgb(208, 208, 195);
+    padding: 30px;  
+}
+.footer h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 30px;
+}
+.footleft input{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+}
+.footleft h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    justify-content: space-between;
+    word-spacing: 5px;
+}
+.footleft .btn{
+    padding: 13px;
+    /* padding-top: -10px; */
+    width: 140px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.footleft p{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -40px;
+    font-family: cursive;
+    color: tomato;
+}
+
+.footright{
+    /* background-color: black; */
+    /* margin: 30px; */
+    width: 650px;
+    margin-left: 60px;
+    
+}
+.footright1{
+    background-color: black;
+    /* position: absolute; */
+    margin-top: 40px;
+    display: flex;
+    padding: 200px;
+    /* text-align: center; */
+}
+/* thank you */
+.last{
+    background-color: rgb(19, 17, 17);
+    height: 50px;
+    /* padding: 10px; */
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    
+}
+
